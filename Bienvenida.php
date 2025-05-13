@@ -3,35 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>SaboryTec</title>
-    <link rel="stylesheet" href="css/stylePrincipal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Orbitron:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styleinicio.css">
 </head>
-<body class="elbody">
-    <header>
-        <div class="tit">
-            <h1>SaboryTec<img src="img/logo-llama.png" width="40" height="40" alt="logo"><br></h1>
+<body>
+     <header>
+        <div class="logo">
+            <h1>SaboryTec</h1>
         </div>
-        
-        <nav class="menu">
-            <ul class="orientacionUL">
-                <li><a href="#">COMIDA</a></li>
-                <li><a href="#">PRODUCTOS</a></li>
-                <li><a href="#">BEBIDAS</a></li>
-                <li><a href="#">OTROS</a></li>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Reservas</a></li>
+                <li><a href="#">carrito(0)</a></li>
             </ul>
-            <div class="menu2">
-                <ul class="orientacionUL2">
-                    <li><a href="Logeo.html">INICIAR SESIÓN</a></li>
-                    <li><a href="#">FAVORITOS</a></li>
-                    <li><a href="#">CARRITO(0)</a></li>
-                </ul>
-            </div>
         </nav>
     </header>
-
-    <div>
-        <h2 class="texto1">Bienvenido a SaboryTec</h2>
-    </div>
-
+   
+    <section class="seccion">
+        <div class="text">
+            <h2>Bienvenidos a la cafeteria SaboryTec</h2>
+            <a href="logeo.html" class="boton">Iniciar Sesion</a>
+        </div>
+    </section>
     
 </body>
 </html>
