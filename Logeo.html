@@ -2,31 +2,48 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styleLogeo.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styleLogeo.css" />
     <title>LOGEO</title>
 </head>
 
 <body>
-
     <!--head-->
-    <div>
-        <h1>SABORYTEC</h1>
+    <div class="head-content">
+        <div class="title-content">
+            <h1>SABORYTEC</h1>
+        </div>
+        <div class="imgs">
+            <img class="img-logeo" src="img/saborytec.gif" alt="saborytec.gif">
+        </div>
     </div>
-    <div>
-        <h2>INICIAR SESION</h2>
-    </div>
+
     <!--body-->
+    <div class="body-content">
+        <form class="form-content">
+            <fieldset class="fieldset-iniciar-sesion">
+                <legend class="legend-iniciar-sesion">INICIAR SESION</legend>
+                <div class="form-input">
+                    <label class="gen-label label-email" for="email">EMAIL</label>
+                    <input class="gen-input input-email" type="email" name="email" id="email"
+                        placeholder="Numero de control@smartin.tecnm.mx" />
+                </div>
+                <div class="form-input">
+                    <label class="gen-label label-password" for="password">CONTRASEÑA</label>
+                    <input class="gen-input input-password" type="password" name="password" id="password"
+                        placeholder="Contraseña" />
+                </div>
+                <div class="form-input">
+                    <input class="gen-input input-submit" type="submit" value="INICIAR SESION" />
+                </div>
+            </fieldset>
+        </form>
 
-    <div class="form">
-        <input type="email" name="email" id="email">
-        <input type="password" name="contra" id="contra">
-        <input type="submit" value="INICIAR SESION">
     </div>
 
-        <!--head-->
-
+    <!--foot-->
+    <div class="foot-content"></div>
 </body>
 
 </html>
