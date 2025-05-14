@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styleBienvenida.css">
 </head>
 <body>
-     <header>
+    <header>
         <div class="text-logo">
             <h1>SaboryTec</h1>
         </div> 
