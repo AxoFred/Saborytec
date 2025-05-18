@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index 2 prueba</title>
+    <link rel="stylesheet" href="/css/styleUsuarios.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="div-title">
+            <h1>SABORYTEC</h1>
+        </div>
+        <div class="div-subtitle">
+            <h2>REGISTRO DE USUARIOS</h2>
+        </div>
+    </div>
+    <!-- body -->
+    <div class="body-content">
+        <div class="div-form">
+            <form class="form-content-formulario">
+                <!-- INFORMACIÓN BASICA -->
+                <fieldset class="gen-fieldset">
+                    <legend class="gen-legend">INFORMACIÓN BASICA</legend>
+                    <div class="div-input-form">
+                        <label for="nombre" class="gen-label-form">Nombre/s</label>
+                        <input class="gen-input-form nombre-input" type="text" placeholder="Rocio" id="nombre"
+                            name="nombre">
+                    </div>
+                    <div class="div-input-form">
+                        <label for="apat" class="gen-label-form">Apellido Paterno</label>
+                        <input class="gen-input-form apat-input" type="text" placeholder="Meza" id="apat" name="apat">
+                    </div>
+                    <div class="div-input-form">
+                        <label for="amat" class="gen-label-form">Apellido Materno</label>
+                        <input class="gen-input-form amat-input" type="text" placeholder="Espinoza" id="amat"
+                            name="amat">
+                    </div>
+                </fieldset>
+                <!-- INFORMACIÓN DE CONTACTO -->
+                <fieldset class="gen-fieldset">
+                    <legend class="gen-legend">INFORMACIÓN DE CONTACTO</legend>
+                    <div class="div-input-form">
+                        <label for="direccion" class="gen-label-form">Dirección</label>
+                        <input class="gen-input-form direccion-input" type="text" placeholder="Calle *** Colonia ***"
+                            id="direccion" name="direccion">
+                    </div>
+                    <div class="div-input-form">
+                        <label for="telefono" class="gen-label-form">Teléfono</label>
+                        <input class="gen-input-form telefono-input" type="text" placeholder="248-158-**-**"
+                            id="telefono" name="telefono">
+                    </div>
+                </fieldset>
+                <!-- INFORMACIÓN DE LOGEO -->
+                <fieldset class="gen-fieldset">
+                    <legend class="gen-legend">INFORMACIÓN DE LOGEO</legend>
+                    <div class="div-input-form">
+                        <label for="email" class="gen-label-form">Correo</label>
+                        <input class="gen-input-form email-input" type="email" placeholder="Username" id="email"
+                            name="email">
+                    </div>
+                    <div class="div-input-form">
+                        <label for="password" class="gen-label-form">Contraseña</label>
+                        <input class="gen-input-form password-input" type="password" placeholder="Password"
+                            id="password" name="password">
+                    </div>
+                </fieldset>
+                <!-- TIPOS DE USUARIO -->
+                <div class="div-input-form">
+                    <label for="type-user" class="gen-label-form">Tipo de usuario
+                        <select class="gen-select-form" name="type-user" id="type-user">
+                            <option class="gen-option" value="Administrador">Administrador</option>
+                            <option class="gen-option" value="Encargado">Encargado</option>
+                            <option class="gen-option" value="Empleado">Empleado</option>
+                        </select>
+                    </label>
+                </div>
+                <!-- INICIAR SESION -->
+                <div class="div-input-form">
+                    <input class="gen-input-form submit-input" type="submit" value="REGISTRAR USUARIO" id="sesion"
+                        name="sesion">
+                </div>
+                <!-- POLITICAS DE PRIVACIDAD -->
+                <div class="div-input-form">
+                    <label for="condiciones" class="gen-label-form label-politicas">politicas de privacidad y
+                        condiciones de uso</label>
+                    <input type="checkbox" class="gen-input-form checkbox-input" id="condiciones" name="condiciones">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div class="footer-content">
+    </div>
+</body>
+
+</html>

@@ -1,14 +1,16 @@
 body {
-    background: linear-gradient(to right, #00000055, #37607255), url('../img/fondo-hambur.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: linear-gradient(#00000099), url(../img/cup-coffe.jpeg);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 55px;
     color: #eee;
+
 }
 
-.div-title {
+.header {
     text-align: center;
 }
 
@@ -27,7 +29,8 @@ body {
     margin-bottom: 2%;
 }
 
-.gen-input-form {
+.gen-input-form,
+.gen-select-form {
     width: 100%;
     padding: 1.5% 2%;
     background: linear-gradient(to top, #0009, #0007);
@@ -38,8 +41,12 @@ body {
     box-shadow: 0 5px 15px 0 #376072;
 }
 
+.gen-option {
+    background: #000;
+}
+
 .gen-label-form {
-    line-height: 2.5;
+    line-height: 3;
 }
 
 .gen-fieldset {
