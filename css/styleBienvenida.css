@@ -1,108 +1,155 @@
+html, body {
+  height: 100%;
+  margin: 0;  
+  padding: 0; 
+}
+
 body {
-    font-family: 'Verdana', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
+  background-image: url('../img/fondo.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.padre {
+  display: flex;
+  width: 100%;
+  height: 100vh;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
-    background-color: #000000;
+.back {
+  width:600px; /* o 600px si prefieres */
+  background: linear-gradient(transparent, black, transparent);
+  clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+  padding: 20px;
 }
 
-header .text-logo h1 {
-    font-family: 'Orbitron', sans-serif;
-    font-size: 2.0rem;
-    color: #fff;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 50px;
-}
-nav ul li a {
-    font-weight: 500;
-    color: #ccc;
-}
-
-nav ul li a:hover {
-    color: #376072;
-}
-
-.seccion {
-    background-image: url('../img/tec-lluvia.jpeg');
-    background-size: cover;
-    background-position: center;
-    padding: 128px 20px;
-    text-align: center;
-    color: #fff;
-}
-.text h2 {
-    font-family: 'Verdana', sans-serif;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 2.5);
-}   
-
-.con h2 {
-    font-family: 'Verdana', sans-serif;
-    font-size: 3rem;
-    margin-bottom: 20px;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 2.5);
-    position: relative;
-    top: -100px;
+.logo h1{
     color: #ffffff;
-}   
-.con pre{
-    font-family: 'Verdana', sans-serif;
-    font-size: 1.5rem;
-    color: #f3f3f3;
-    text-shadow: 1px 1px 6px rgba(0, 0, 0, 1.5);
-    text-align: center;          
-    margin: 0 auto;  
-    position: relative;
-    top: -100px;
-    font-weight: bold; 
-}
-
-.boton {
-    background-color: #376072;
-    color: #ffffff;
-    padding: 15px 30px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    position: relative;
-    top: -80px;
-    
-}
-
-.boton:hover {
-    background-color: #25414e;
-}
-
-.con{
-    background:linear-gradient( #376072,transparent);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding: 103px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
     text-align: center;
-    color: #fff;
-    width: 900px;
+    margin: 10%; 
+    padding: 0%;
+    position: relative;
+    left: -30px;
+    top:50px;
+}
+
+img{
+    width: 100px;
     height: 100px;
+    padding: 0%;
+    margin: 0%;
     position: relative;
-    left: 280px;
+    left: 220px;
+    top:100px
+}
+
+.tit h3{
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  left: -30px;
+  top: 20px;
+}
+.tit pre{
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  position: relative;
+  left: -30px;
+  top: 20px; 
+}
+.tit a{
+  color: #f7f7f7;
+  background-color: #376072;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  left: 200px;
+  top: 40px;
+}
+
+
+/*boton despegable*/
+ .dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+.dropdown-btn {
+  color: #f7f7f7;
+  padding: 10px 10px;
+  background-color: #376072;
+  border: 1px solid #376072;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  left: 200px;
+  top: 20px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  min-width: 160px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+  position: relative;
+  left: 200px;
+  top: 20px;
+}
+.dropdown-content a {
+  display: block;
+  padding: 5px 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  border-bottom: 1px solid #000000;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+.dropdown-content a:hover {
+  background-color: #376072;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* carrusel */
+.carousel {
+  width: 50%;
+  height: 60vh;
+  margin-left: auto;
+  position: relative;
+  top: 150px;
+  left: -100px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: static;
 }
