@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#00000099), url(../img/cup-coffe.jpeg);
+    background: linear-gradient(#00000055), url(../img/cup-coffe.jpeg);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
     max-width: 500px;
     margin: 0;
     margin: auto;
-    background: transparent;
+    background: #0009;
     border: 2px solid #376072;
     border-radius: 30px;
     box-shadow: 0 0 25px 5px #376072;
