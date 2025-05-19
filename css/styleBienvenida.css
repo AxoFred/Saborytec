@@ -1,7 +1,8 @@
-html, body {
+html,
+body {
   height: 100%;
-  margin: 0;  
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
 }
 
 .padre {
@@ -19,35 +20,36 @@ body {
 }
 
 .back {
-  width:600px; /* o 600px si prefieres */
+  width: 600px;
+  /* o 600px si prefieres */
   background: linear-gradient(transparent, black, transparent);
   clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
   padding: 20px;
 }
 
-.logo h1{
-    color: #ffffff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    text-align: center;
-    margin: 10%; 
-    padding: 0%;
-    position: relative;
-    left: -30px;
-    top:50px;
+.logo h1 {
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin: 10%;
+  padding: 0%;
+  position: relative;
+  left: -30px;
+  top: 50px;
 }
 
-img{
-    width: 100px;
-    height: 100px;
-    padding: 0%;
-    margin: 0%;
-    position: relative;
-    left: 220px;
-    top:100px
+img {
+  width: 100px;
+  height: 100px;
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  left: 220px;
+  top: 100px
 }
 
-.tit h3{
+.tit h3 {
   color: #ffffff;
   font-size: 30px;
   text-align: center;
@@ -55,16 +57,18 @@ img{
   left: -30px;
   top: 20px;
 }
-.tit pre{
+
+.tit pre {
   color: #ffffff;
   font-size: 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   position: relative;
   left: -30px;
-  top: 20px; 
+  top: 20px;
 }
-.tit a{
+
+.tit a {
   color: #f7f7f7;
   background-color: #376072;
   text-decoration: none;
@@ -79,11 +83,12 @@ img{
 
 
 /*boton despegable*/
- .dropdown {
+.dropdown {
   position: relative;
   display: inline-block;
   font-family: Arial, sans-serif;
 }
+
 .dropdown-btn {
   color: #f7f7f7;
   padding: 10px 10px;
@@ -96,18 +101,20 @@ img{
   left: 200px;
   top: 20px;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color:black;
+  background-color: black;
   min-width: 160px;
   border-radius: 4px;
-  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1;
   position: relative;
   left: 200px;
   top: 20px;
 }
+
 .dropdown-content a {
   display: block;
   padding: 5px 16px;
@@ -119,12 +126,15 @@ img{
   left: 0px;
   top: 0px;
 }
+
 .dropdown-content a:last-child {
   border-bottom: none;
 }
+
 .dropdown-content a:hover {
   background-color: #376072;
 }
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -152,4 +162,11 @@ img{
   height: 100%;
   object-fit: cover;
   position: static;
+}
+
+.carousel-inner {
+  border-radius: 355px;
+  border: none;
+  border: 1px solid #000;
+  box-shadow: 0 0 25px 5px #000;
 }
